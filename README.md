@@ -108,56 +108,51 @@ at the end if there was no problem during the translation the output data should
 
 
 
-## Running the tests
+## The Test
+We used unit test framework .In the test_code file we created a class named "Test_Translator" where we try t test the most important class of this program which is the "translator" class
+####test_encrupt method :
+in this method we were able to generate 3 kinds of tests on the "encrypt" method of the original code.
+```
+*test an english text that contain only valid character using the file "test _ english text input.txt"
+*test all the valid English characters using the file "test_valid character English_input.txt"
+*test all the invalid English characters using the file "test_invlid character English.txt"
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+ ```     
+ 
+ 
+ ####test_decrypt method :
+in this method we were able to generate 4 kinds of tests on the "dncrypt" method of the original code.
+```
+*test a text writen in morse code using the file "test_text Morse input.txt"
+*test test all Valid Morse character in morse code using the file "test_valid characters Morse_input.txt"
+*test test all inValid Morse character in morse code using the file "test_invalid character Morse.txt"
+*test The result of double dots consecutive
 
-Explain what these tests test and why
+ ```   
+   
+
+
+
+### Running the tests
+
+after installing unit testing framework we should write the following command in the terminal.  
 
 ```
-Give an example
+python -m unittest test_code
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
+the result is :
 ```
-Give an example
+Ran 2 tests in 0.281s
+
+OK
 ```
+this means that the two function were tested correctly and no problem has been noticed.
 
-## Deployment
+## Limitations and suggestion to the user:
+-you should avoid closing input file with a space at the end that should output a correct code but with additional space or dot'.' that won't affect the meaning. 
+<br />
+-try to not make two spaces in the morse code this may let the program add a separation dot.
 
-Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
