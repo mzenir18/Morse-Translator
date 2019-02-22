@@ -41,9 +41,9 @@ the code contain 2 classe which are
 this class is for translating the text to Morse or backwards .infact this class is constructed by two fundamnetal method:
 ### Morse Encrypt method:
 this function is responsible for encrypting English text to Morse code taking "MORSE_CODE_DICT" as reference dictionary.
-the method works as the following:
-    <br />*convert all the string(message) entred to upper case
-    <br />*check the letter of the message 1 by one 
+the method works as the following:<br />
+    <br />*convert all the string(message) entred to upper case<br />
+    <br />*check the letter of the message 1 by one <br />
          <br />-if it has equivalent in dictionary then it stors the value in cipher varible and add a point to sparate the characters
          <br />-otherwise it stops the program 
    
@@ -54,6 +54,20 @@ the method works as the following:
 at last the function retun the morse code that is identical to the English text entred 
 
 ### Morse decrypt  method:
+this method is used for converting the morse code to its corresponding English text.
+<br />
+the method works as the following:<br />
+*we add space to the message entred in case it does not ontain one at the end ; this is used to allow the function convert the last character<br /> 
+<br />
+*check each letter of the message one by one <br />
+                   
+    *in case  letter is neither space nor dot'.' and has a value in the dictionary the it will be stored in citext 
+    *in case the letter is a point or a space then we know that we have collected al the parts of the character then we pass it to the         dictionaryto give its equivalent English character
+    *in case the is a double dot consecutive  the program will stop and exit 
+    
+      
+                     
+
 
 
 
