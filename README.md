@@ -47,11 +47,11 @@ the method works as the following:<br />
          <br />-if it has equivalent in dictionary then it stors the value in cipher varible and add a point to sparate the characters
          <br />-otherwise it stops the program 
    
-    *in case we have new line the output is kept constant 
-    *in case there is a tab we interpret it as a space
-    *in case the letter is a space then we add a space to the morse code
+    *in case we have new line the output is kept constant.
+    *in case there is a tab we interpret it as a space.
+    *in case the letter is a space then we add a space to the morse code.
 
-at last the function retun the morse code that is identical to the English text entred 
+at last the function retun the morse code that is identical to the English text entred. 
 
 ### Translator decrypt  method:
 this method is used for converting the morse code to its corresponding English text.
@@ -69,12 +69,36 @@ the method works as the following:<br />
  <br />
  in this class we have also the method write that will receive parameter data and stores it in the output file.
  <br />
- In addition the class has constructor to initialize the input and output file directory 
+ In addition the class has constructor to initialize the input and output file directory.
  <br />
- finaly we have the read_test that is used for test session  
-      
-                     
+ finaly we have the read_test that is used for test session.  
+ ## Morse main function:
+ in the main function and special case for this assignment we would ask the user for input file path and output file path.
 
+ then we pass the values to the "read" and "write" methods.
+ <br />
+ after we ask the user to choose in which direction the translation wuold be ("1" for English to Morse;"2" for Morse to English )
+ and we call the correcpoding method from tranlator class.
+ 
+ ## How to use it:
+ in order to compile the code write in terminal (after entring the folder of the code)
+ ```
+>python code.py
+ ```
+ then enter the input file path and output file path for example:
+ ```
+Enter the input file path : input.txt
+Enter the output file path : output.txt
+ ```
+after that you should select which direction of translation do you want (English to Morse or Morse to English) by just typing 1 or 2
+```
+could you select which kind of translation do you want ?
+ 1-English to morse
+ 2-Morse to English
+
+Enter the corresponding number :
+ ```
+at the end if there was no problem during the translation the output data should be in the output file where you indicate its path at the beginning.
 
 
 
