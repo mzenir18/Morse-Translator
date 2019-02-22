@@ -115,7 +115,7 @@ at the end if there was no problem during the translation the output data should
 
 ## The Test
 We used unit test framework .In the test_code file we created a class named "Test_Translator" where we try t test the most important class of this program which is the "translator" class
-###test_encrupt method :
+### test_encrypt method :
 In this method we were able to generate 3 kinds of tests on the "encrypt" method of the original code.
 ```
 *test an english text that contain only valid character using the file "test _ english text input.txt"
@@ -125,13 +125,13 @@ In this method we were able to generate 3 kinds of tests on the "encrypt" method
 
  ```     
  
-###test_decrypt method :
-In this method we were able to generate 4 kinds of tests on the "dncrypt" method of the original code.
+### test_decrypt method :
+In this method we were able to generate 4 kinds of tests on the "decrypt" method of the original code.
 ```
 *test a text writen in morse code using the file "test_text Morse input.txt"
 *test test all Valid Morse character in morse code using the file "test_valid characters Morse_input.txt"
 *test test all inValid Morse character in morse code using the file "test_invalid character Morse.txt"
-*test The result of double dots consecutive
+*test The result of double dots consecutive using the file "test_consecutive double dot.txt"
 
  ```   
    
