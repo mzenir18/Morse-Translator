@@ -4,17 +4,36 @@
 Morse  Translator is a program coverts English text to Morse code and vice versa.
 The text should be read from a file and output should be written to another. 
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## Prerequisites
 
 you should install the unit testing framework  using pip in the Terminal 
 
 ```
 pip install unittest
 ```
+## Morse syntax
+Morse code expresses characters as pulses of different durations.Short signals are referred to as "dots", long signals as "dashes".
+ We'll refer to "dots" as the character "•" and "dashes" as "-".and the following table will be our dictionary IMAGE
+ In this program each charcter of Morse code should be separated with a dot "."  
+example we have in English 
+```
+sos
+```
+the result after translation should be 
+```
+•••.−−−.•••
+```
+In addition the words are separated with a normal space " " as the following example shows 
+```
+hello world
+```
+would be :
+```
+••••.•.•-••.•-••.--- •--.---.•-•.•-••.-•• 
+```
+
 
 ### Installing
 
