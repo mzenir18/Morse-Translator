@@ -1,7 +1,8 @@
 # Morse-Translator
 
 
-One Paragraph of project description goes here
+Morse  Translator is a program coverts English text to Morse code and vice versa.
+The text should be read from a file and output should be written to another 
 
 ## Getting Started
 
