@@ -65,9 +65,9 @@ the method works as the following:<br />
     *in case the letter is a point or a space then we know that we have collected al the parts of the character then we pass it to the  <br />dictionary to give its equivalent English character
     *in case the is a double dot consecutive  the program will stop and exit 
  ## Morse file_manipulator class: 
- this class is used for reading from a text file using the method read that returns "fline" which stores all the content of the input text file.
+ this class is used for reading from a text file using the method "read" that returns "fline" which stores all the content of the input text file.
  <br />
- in this class we have also the method write that will receive parameter data and stores it in the output file.
+ in this class we have also the method "write" that will receive parameter data and stores it in the output file.
  <br />
  In addition the class has constructor to initialize the input and output file directory.
  <br />
@@ -77,13 +77,13 @@ the method works as the following:<br />
 
  then we pass the values to the "read" and "write" methods.
  <br />
- after we ask the user to choose in which direction the translation wuold be ("1" for English to Morse;"2" for Morse to English )
+ after we ask the user to choose in which direction the translation would be ("1" for English to Morse;"2" for Morse to English )
  and we call the correcpoding method from tranlator class.
  
  ## How to use it:
  in order to compile the code write in terminal (after entring the folder of the code)
  ```
->python code.py
+python code.py
  ```
  then enter the input file path and output file path for example:
  ```
@@ -110,8 +110,8 @@ at the end if there was no problem during the translation the output data should
 
 ## The Test
 We used unit test framework .In the test_code file we created a class named "Test_Translator" where we try t test the most important class of this program which is the "translator" class
-####test_encrupt method :
-in this method we were able to generate 3 kinds of tests on the "encrypt" method of the original code.
+###test_encrupt method :
+In this method we were able to generate 3 kinds of tests on the "encrypt" method of the original code.
 ```
 *test an english text that contain only valid character using the file "test _ english text input.txt"
 *test all the valid English characters using the file "test_valid character English_input.txt"
@@ -120,9 +120,8 @@ in this method we were able to generate 3 kinds of tests on the "encrypt" method
 
  ```     
  
- 
- ####test_decrypt method :
-in this method we were able to generate 4 kinds of tests on the "dncrypt" method of the original code.
+###test_decrypt method :
+In this method we were able to generate 4 kinds of tests on the "dncrypt" method of the original code.
 ```
 *test a text writen in morse code using the file "test_text Morse input.txt"
 *test test all Valid Morse character in morse code using the file "test_valid characters Morse_input.txt"
