@@ -18,9 +18,10 @@ Morse code expresses characters as pulses of different durations.Short signals a
  We'll refer to "dots" as the character "•" and "dashes" as "-".and the following table will be our dictionary 
  ![Alt text](img/Morse_Dic.png?raw=true "Title")
 
-<br />
-In this program each character of Morse code should be separated with a dot "."  
+
+<br />In this program each character of Morse code should be separated with a dot "."  
 example we have in English 
+
 ```
 sos
 ```
