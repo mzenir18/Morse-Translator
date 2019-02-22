@@ -1,7 +1,7 @@
 # Morse-Translator
 
 
-Morse  Translator is a program coverts English text to Morse code and vice versa.
+Morse  Translator is a program converts English text to Morse code and vice versa.
 The text should be read from a file and output should be written to another. 
 
 
@@ -17,7 +17,9 @@ pip install unittest
 Morse code expresses characters as pulses of different durations.Short signals are referred to as "dots", long signals as "dashes".
  We'll refer to "dots" as the character "•" and "dashes" as "-".and the following table will be our dictionary 
  ![Alt text](img/Morse_Dic.png?raw=true "Title")
- In this program each charcter of Morse code should be separated with a dot "."  
+
+<br />
+In this program each character of Morse code should be separated with a dot "."  
 example we have in English 
 ```
 sos
