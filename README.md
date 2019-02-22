@@ -65,11 +65,11 @@ the method works as the following:<br />
 <br />
 *check each letter of the message one by one <br />
                    
-    *in case  letter is neither space nor dot'.' and has a value in the dictionary the it will be stored in citext 
-    *in case the letter is a point or a space then we know that we have collected al the parts of the character then we pass it to the  
-    <br />
-    dictionary to give its equivalent English character
-    *in case the is a double dot consecutive  the program will stop and exit 
+    *In case  letter is neither space nor dot'.' and has a value in the dictionary the it will be stored in citext. 
+    *In case the letter is a point or a space then we know that we have collected al the parts of the character
+    then we pass it to the dictionary to give its equivalent English character.
+    
+    *In case the is a double dot consecutive  the program will stop and exit.
  at the End(if all characters are valid) it returns the string but in upper case.
  ## Morse file_manipulator class: 
  this class is used for reading from a text file using the method "read" that returns "fline" which stores all the content of the input text file.
