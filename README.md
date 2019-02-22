@@ -39,7 +39,7 @@ would be :
 the code contain 2 classe which are 
 ## Translator class:
 this class is for translating the text to Morse or backwards .infact this class is constructed by two fundamnetal method:
-### Morse Encrypt method:
+### Translator Encrypt method:
 this function is responsible for encrypting English text to Morse code taking "MORSE_CODE_DICT" as reference dictionary.
 the method works as the following:<br />
     <br />*convert all the string(message) entred to upper case<br />
@@ -53,7 +53,7 @@ the method works as the following:<br />
 
 at last the function retun the morse code that is identical to the English text entred 
 
-### Morse decrypt  method:
+### Translator decrypt  method:
 this method is used for converting the morse code to its corresponding English text.
 <br />
 the method works as the following:<br />
@@ -62,9 +62,16 @@ the method works as the following:<br />
 *check each letter of the message one by one <br />
                    
     *in case  letter is neither space nor dot'.' and has a value in the dictionary the it will be stored in citext 
-    *in case the letter is a point or a space then we know that we have collected al the parts of the character then we pass it to the         dictionaryto give its equivalent English character
+    *in case the letter is a point or a space then we know that we have collected al the parts of the character then we pass it to the  <br />dictionary to give its equivalent English character
     *in case the is a double dot consecutive  the program will stop and exit 
-    
+ ## Morse file_manipulator class: 
+ this class is used for reading from a text file using the method read that returns "fline" which stores all the content of the input text file.
+ <br />
+ in this class we have also the method write that will receive parameter data and stores it in the output file.
+ <br />
+ In addition the class has constructor to initialize the input and output file directory 
+ <br />
+ finaly we have the read_test that is used for test session  
       
                      
 
@@ -74,19 +81,8 @@ the method works as the following:<br />
 
 
 
-Say what the step will be
 
-```
-Give the example
-```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
