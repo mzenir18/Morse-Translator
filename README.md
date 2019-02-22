@@ -35,9 +35,30 @@ would be :
 ```
 
 
-### Installing
+## Morse Translator Classes:
+the code contain 2 classe which are 
+## Translator class:
+this class is for translating the text to Morse or backwards .infact this class is constructed by two fundamnetal method:
+### Morse Encrypt method:
+this function is responsible for encrypting English text to Morse code taking "MORSE_CODE_DICT" as reference dictionary.
+the method works as the following:
+    *convert all the string(message) entred to upper case
+    *check the letter of the message 1 by one 
+         -if it has equivalent in dictionary then it stors the value in cipher varible and add a point to sparate the characters
+         -otherwise it stops the program 
+   
+    *in case we have new line the output is kept constant 
+    *in case there is a tab we interpret it as a space
+    *in case the letter is a space then we add a space to the morse code
 
-A step by step series of examples that tell you how to get a development env running
+at last the function retun the morse code that is identical to the English text entred 
+
+### Morse decrypt  method:
+
+
+
+
+
 
 Say what the step will be
 
