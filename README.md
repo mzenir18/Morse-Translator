@@ -66,7 +66,9 @@ the method works as the following:<br />
 *check each letter of the message one by one <br />
                    
     *in case  letter is neither space nor dot'.' and has a value in the dictionary the it will be stored in citext 
-    *in case the letter is a point or a space then we know that we have collected al the parts of the character then we pass it to the  <br />dictionary to give its equivalent English character
+    *in case the letter is a point or a space then we know that we have collected al the parts of the character then we pass it to the  
+    <br />
+    dictionary to give its equivalent English character
     *in case the is a double dot consecutive  the program will stop and exit 
  at the End(if all characters are valid) it returns the string but in upper case.
  ## Morse file_manipulator class: 
@@ -116,7 +118,7 @@ at the end if there was no problem during the translation the output data should
 ## The Test
 We used unit test framework .In the test_code file we created a class named "Test_Translator" where we try t test the most important class of this program which is the "translator" class
 ### test_encrypt method :
-In this method we were able to generate 3 kinds of tests on the "encrypt" method of the original code.
+In this method we were able to generate 3 kinds of tests applied on the "encrypt" method of original code.
 ```
 *test an english text that contain only valid character using the file "test _ english text input.txt"
 *test all the valid English characters using the file "test_valid character English_input.txt"
@@ -126,7 +128,7 @@ In this method we were able to generate 3 kinds of tests on the "encrypt" method
  ```     
  
 ### test_decrypt method :
-In this method we were able to generate 4 kinds of tests on the "decrypt" method of the original code.
+In this method we were able to generate 4 kinds of tests applied on the "decrypt" method of  original code.
 ```
 *test a text writen in morse code using the file "test_text Morse input.txt"
 *test test all Valid Morse character in morse code using the file "test_valid characters Morse_input.txt"
