@@ -2,7 +2,7 @@
 
 
 Morse  Translator is a program coverts English text to Morse code and vice versa.
-The text should be read from a file and output should be written to another 
+The text should be read from a file and output should be written to another. 
 
 ## Getting Started
 
@@ -10,10 +10,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+you should install the unit testing framework  using pip in the Terminal 
 
 ```
-Give examples
+pip install unittest
 ```
 
 ### Installing
