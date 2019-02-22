@@ -15,7 +15,8 @@ pip install unittest
 ```
 ## Morse syntax
 Morse code expresses characters as pulses of different durations.Short signals are referred to as "dots", long signals as "dashes".
- We'll refer to "dots" as the character "•" and "dashes" as "-".and the following table will be our dictionary IMAGE
+ We'll refer to "dots" as the character "•" and "dashes" as "-".and the following table will be our dictionary 
+ ![alt text](img\Morse_Dic)
  In this program each charcter of Morse code should be separated with a dot "."  
 example we have in English 
 ```
