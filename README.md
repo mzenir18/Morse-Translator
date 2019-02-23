@@ -158,7 +158,7 @@ this means that the two function were tested correctly and no problem has been n
 ## Limitations and suggestion to the user:
 -you should avoid closing input file with a space at the end that should output a correct code but with additional space or dot'.' that won't affect the meaning. 
 <br />
--try to not make two spaces in the morse code this may let the program add a separation dot.
+-try not to make two spaces in the morse code ; this may let the program add an extra  separation dot.
 
 
 
